@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Checkout</title>
+    <link rel="stylesheet" href="home.css" />
+    <link rel="icon" href="favicon.png" />
+    <script src="home.js" type="text/javascript"></script>
+</head>
+<body>
+    <section class="navi">
+        <p>weserveyoubetter</p>
+        <a href="home.html"><div  class="logo">
+            UltrAs
+        </div></a>
+        <nav>
+            <ul>
+                
+                <a href="men.html">Men</a>
+                <a href="women.html">Women</a>
+                <a href="kids.html">Kids</a>
+                <a href="unisex.html">Unisex</a>
+                <a href="home.html">Home</a>
+                <a href="profile.html">Contact</a>
+            </ul>
+        </nav>
+        <div class="icons">
+            <a class="loader" href=""><img width="20" src="imageslogos/loader.gif" alt=""></a>
+            <div class="store">
+            <a class="store1" href="checkout.html"><img src="imageslogos/logos/shopingbag.png" alt=""></a>
+            <a href="shoping.html"><img src="imageslogos/logos/chat.png" alt=""></a>
+            <a id="store2" href="profile.html"><img src="imageslogos/profilepic.jpg" width="60px" alt=""></a>
+          </div>
+        </div>
+    </section>
+    <section class="form">
+        <div class="Purchase">
+            <h1>Only Item to Purchase</h1>
+            <h1 class="sold1" id="sold27"></h1>
+            <th></th>
+    <table>
+        <tr>
+            <th>Price</th>
+        </tr>
+        <tr>
+            <td></td>
+            <td> GH110</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>GH300</td>
+        </tr>
+    </table>
+</div>
+<h2 class="table">Total: GH450</h2>
+
+    <form action="https://example.com/charge" method="post">
+        <script
+            src="https://checkout.stripe.com/checkout.js" class="stripe-button"
+            data-key="pk_test_TYooMQauvdEDq54NiTphI7jx"
+            data-amount="3000"
+            data-name="My Website"
+            data-description="Checkout"
+            data-image="https://stripe.com/img/documentation/checkout/marketplace.png"
+            data-locale="auto"
+            data-currency="usd">
+        </script>
+    </form>
+</section>
+
+<footer>
+    <div class="footer-container">
+        <div class="footer-section">
+            <h3>Contact Me</h3>
+            <h3>Email: zues@email.com</p>
+            <h3>Phone: (233) 456-7890</p>
+        </div>
+        <div class="footer-section">
+            <h3>Categories</h3>
+            <ul>
+                <li><a href="#">Ladies</a></li>
+                <li><a href="#">Men</a></li>
+                <li><a href="#">Women</a></li>
+                <li><a href="#">Kids</a></li>
+                <li><a href="#">Unisex</a></li>
+            </ul>
+        </div>
+        <div class="footer-section">
+            <h3>Navigation</h3>
+            <ul>
+                <li><a href="#">Home</a></li>
+            </ul>
+        </div>
+    </div>
+</footer>
+</body>
+</html>
